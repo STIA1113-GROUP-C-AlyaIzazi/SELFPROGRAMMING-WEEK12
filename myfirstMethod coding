@@ -1,0 +1,43 @@
+package myMethod;
+
+public class myfirstMethod {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int i = 21;
+		String name = "Alya";
+		
+        System.out.println("I have a message for you");
+        showMessage();
+        System.out.println("That's all folk!");
+        showMessage2();
+        System.out.println("That's all buddie!");
+        showMessage3(i);
+        showMessage4(i,name);
+        
+	}
+        
+    public static void showMessage () {
+    	System.out.println("HELLO WORLD");
+	}
+    
+    public static void showMessage2 () {
+    	System.out.println("HELLO MALAYSIA");
+    	
+    }
+    
+    public static void showMessage3(int j) {
+    	System.out.println("The number is " +j);
+    }
+    
+    public static void showMessage4 (int k, String n) {
+    	int m = 4;
+    	System.out.println("The number is " + k);
+    	System.out.println("My name is " + n);
+    	int sum = k+m;
+    	System.out.println("Sum is " + sum);
+    	
+    	
+    }
+    
+}
