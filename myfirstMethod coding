@@ -31,7 +31,7 @@ public class myfirstMethod {
     }
     
     public static void showMessage4 (int k, String n) {
-    	int m = 4;
+    	int m = 9;
     	System.out.println("The number is " + k);
     	System.out.println("My name is " + n);
     	int sum = k+m;
