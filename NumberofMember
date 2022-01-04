@@ -1,0 +1,20 @@
+Package myMethod;
+
+public class NumberofMember {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	        String[] member = {"Aisyah", "Alya", "WC", "Fara", "Hanis"};
+	        System.out.println("Number of member: " +member.length);
+	      
+	    
+	  
+	}
+
+}
+
+output:
+
+Number of member: 5
+
